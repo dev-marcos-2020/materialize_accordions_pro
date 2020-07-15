@@ -1,0 +1,435 @@
+ #menu-posts-material_accordion div.wp-menu-image {
+     filter: invert(42%) sepia(93%) saturate(251%) hue-rotate(287deg) brightness(119%) contrast(55%);
+}
+.post-type-material_accordion {
+    overflow-x: hidden;
+}
+ #material-meta-box h2 span {
+     text-align: center;
+     font-size: 20px;
+     display: block;
+}
+ #material-meta-box h2.hndle.ui-sortable-handle {
+     background: #ee6e73;
+     color: #fff;
+}
+ .material-accordion-title, .accordion-editor {
+     width: 100%;
+}
+.advanced-sortables {
+     padding: 10px 0;
+     box-shadow: none 
+}
+.accordion-admin-wrap label, .collapsible-head {
+    display: block;
+    text-align: center;
+}
+ .accordion-section {
+     border: none;
+     padding: 20px 15px;
+     margin: 25px;
+     cursor: move;
+     display: block !important;
+     box-shadow: 0 0 20px rgba(0,0,0,.23);
+}
+ .metabox-wrapper {
+     padding: 10px;
+}
+ .material-labels {
+     font-weight: bold !important;
+     text-align: center;
+     color: #555;
+}
+.material-labels:hover, .advanced-sortables:hover {
+    cursor: move;
+}
+ .wp-editor-area {
+     height: 200px;
+}
+ .switchboxWrapper {
+     position: relative;
+     width: 50%;
+     margin: 8% auto;
+}
+ .switch {
+     visibility: hidden;
+     margin-left: -9999px;
+     position: absolute;
+}
+ .switch + label {
+     display: block;
+     position: relative;
+     cursor: pointer;
+     outline: none;
+     padding: 2px 5px;
+     width: 110px;
+     height: 38px;
+     border-radius: 80px;
+     box-shadow: 1px 1px 1px 1px rgba(10, 13, 31, 0.95);
+     user-select: none;
+}
+ .switch + label:before {
+     right: 1px;
+     background: #DDDDDD;
+     border-radius: 75px;
+     transition: 0.4s;
+}
+ .switch + label:after {
+     width: 38px;
+     height: 38px;
+     background-color: #fff;
+     border-radius: 100%;
+     transition: 0.4s;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+ input.switch + label:before, input.switch + label:after {
+     display: block;
+     position: absolute;
+     top: 2px;
+     left: 2px;
+     bottom: 2px;
+     content: "";
+}
+ .admin-shortcode input[type="text"]:focus {
+     box-shadow: none !important;
+}
+ .switch:checked + label:before {
+     background-color: #6EDC5F;
+}
+ .switch:checked + label:after {
+     margin-left: 77px;
+}
+ .labels {
+     text-align: center;
+     padding: 15px 10px 10px 0;
+     line-height: 1.25;
+     font-weight: bold;
+     display: block;
+     color: #555;
+     font-size: 16px;
+}
+ .metadata-wrapper {
+     border-bottom: 5px solid #D2D2D2;
+}
+ .wp-picker-container .wp-color-result.button {
+     margin: 10px 30px;
+     font-size: 15px;
+}
+ .accordion-btns {
+     text-align: center;
+     margin-bottom: 50px;
+}
+ .accordion-btns a {
+     padding: 20px 0px;
+     margin: 10px auto;
+     display: inline-block;
+     width: 50%;
+     text-align: center;
+     background: #1d976c;
+     color: #fff;
+}
+ .content-delete {
+     color: #fff;
+     display: inline-block;
+     font-size: 14px;
+     padding: 5px;
+     text-decoration: none;
+     margin: 0px;
+     background: #D31027;
+}
+ .accordion-btns a:hover, a.content-delete:hover {
+     cursor: pointer;
+     opacity: .8;
+     color: #fff;
+}
+ .admin-shortcode {
+     text-align: center;
+     background: #333;
+     padding: 10px;
+     color: #fff;
+     font-family: open sans;
+}
+ .admin-shortcode input {
+     width: 100%;
+     font-size: 30px;
+     text-align: center;
+     font-weight: bold;
+     color: #fff;
+     padding: 10px;
+     background: #333;
+     border: none;
+}
+ .admin-shortcode h4 {
+     font-size: 20px;
+     margin: 0.33em 0;
+}
+ .admin-shortcode p {
+     font-size: 10px 
+}
+ .material-pro-wrapper {
+     position: relative;
+}
+ .material-pro-label {
+     padding: 10px 10px;
+     position: absolute;
+     right: -10px;
+     top: 22px;
+     background-color: #485461;
+     background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+     box-shadow: 1px 1px 1px rgba(0,0,0,0.92);
+     font-size: 13px;
+     color:#fff;
+     text-transform: uppercase;
+     text-align: center;
+     width: 100% 
+}
+ .material-pro-wrapper .btn {
+     background-image:linear-gradient(180deg,rgba(155,195,209,.7) 0,rgba(255,125,213,.8) 100%);
+     color:#fff;
+     position: relative;
+     z-index: 1;
+     overflow: hidden;
+     transition: background-image 3s;
+     display: inline-block;
+     padding: 15px 16px;
+     text-decoration:none;
+     transition: .5s ease 
+}
+ .material-pro-wrapper .btn:hover {
+     opacity: .6 
+}
+ .switchboxWrapper .right {
+     float: right;
+     font-weight:bold;
+     padding-right: 20px;
+}
+ .switchboxWrapper .left {
+     padding-left: 20px;
+     font-weight:bold;
+}
+ .switchboxWrapper.show-hide label {
+     display: inline-block;
+     font-size: 18px;
+     margin: 2px;
+}
+.switchboxWrapper select { 
+    background-color: #f2f2f2;
+    padding: 10px 15px;
+    border-radius: 3px;
+}
+ .switchboxWrapper label .my_icon {
+     display:none !important;
+}
+ .switchboxWrapper label span {
+     position: relative;
+     display: inline-block;
+     margin: 20px 0px;
+     padding: 5px 2px;
+}
+ .switchboxWrapper label span:hover {
+     box-shadow: inset 0 0 1px 5px #6EDC5F;
+}
+ .switchboxWrapper label input:checked ~ span {
+     color:#fff;
+     border: 3px solid #008eff;
+}
+ .switchboxWrapper label input:checked ~ span:before {
+     content:'';
+     width: 100%;
+     height: 100%;
+     position:absolute;
+     top:0;
+     left:0;
+     background:#008eff;
+     z-index:-1;
+     filter: blur(10px);
+}
+ .switchboxWrapper label input:checked ~ span:after {
+     content:'';
+     width: 100%;
+     height: 100%;
+     position:absolute;
+     top:0;
+     left:0;
+     background:#008eff;
+     z-index:-1;
+     filter: blur(15px);
+}
+ .switchboxWrapper label input:checked ~ span.radio-wrap {
+     color:#62ff00;
+     border-color:#62ff00;
+     box-shadow: inset 0 0 10px #6EDC5F;
+}
+ .switchboxWrapper label input:checked ~ span.radio-wrap:before, .switchboxWrapper label input:checked ~ span.radio-wrap:after {
+     background:#62ff00;
+}
+ .switchboxWrapper label input:checked ~ span {
+     color:#ff0000;
+     border-color:#ff0000;
+     box-shadow: inset 2px 2px 20px #62ff00;
+}
+ .switchboxWrapper label input:checked ~ span:before, .switchboxWrapper label input:checked ~ span:after {
+     background:#ff0000;
+}
+ span .material-icons {
+     color: #000;
+     float: none;
+}
+ .radio-wrap {
+     text-align: center;
+     background: #fff;
+}
+ .range-slider {
+     margin: 40px 0;
+     padding: 20px;
+     width: 100%;
+}
+ .range-slider__range {
+     -webkit-appearance: none;
+     width: calc(100% - (73px));
+     height: 10px;
+     border-radius: 5px;
+     background: #d7dcdf;
+     outline: none;
+     padding: 0;
+     margin: 0;
+}
+ .range-slider__range::-webkit-slider-thumb {
+     -webkit-appearance: none;
+     appearance: none;
+     width: 20px;
+     height: 20px;
+     border-radius: 50%;
+     background: #6EDC5F;
+     cursor: pointer;
+     -webkit-transition: background .15s ease-in-out;
+     transition: background .15s ease-in-out;
+}
+ .range-slider__range::-webkit-slider-thumb:hover {
+     background: #1abc9c;
+}
+ .range-slider__range:active::-webkit-slider-thumb {
+     background: #1abc9c;
+}
+ .range-slider__range:focus::-webkit-slider-thumb {
+     box-shadow: 0 0 0 3px #fff, 0 0 0 6px #1abc9c;
+}
+ .range-slider__value {
+     display: inline-block;
+     position: relative;
+     width: 60px;
+     color: #fff;
+     line-height: 20px;
+     text-align: center;
+     border-radius: 3px;
+     background: #6EDC5F;
+     padding: 5px 10px;
+     margin-left: 8px;
+}
+ .range-slider__value:after {
+     position: absolute;
+     top: 8px;
+     left: -7px;
+     width: 0;
+     height: 0;
+     border-top: 7px solid transparent;
+     border-right: 7px solid #6EDC5F;
+     border-bottom: 7px solid transparent;
+     content: '';
+}
+.advanced-sortables .material-icons {
+    background: #000;
+    margin: 10px 0;
+    color: #fff;
+}
+.advanced-sortables .material-icons:hover {
+    cursor: pointer;
+}
+.custom-user-js span, .cm-variable {
+    text-align: left;
+}
+.ui-tabs {
+     position: relative;/* position: relative prevents IE scroll bug (element with position: relative inside container with overflow: auto appear as "fixed") */
+     padding: .2em;
+     text-align: center;
+     margin: 0 auto;
+     display: block;
+}
+.ui-tabs .ui-tabs-nav {
+     margin: 3px;
+     padding: 0;
+     display: ruby;
+}
+.ui-tabs .ui-tabs-nav li {
+     list-style: none;
+     float: none;
+     top: 0;
+     margin: 0px 0.2em 0 0;
+     border-bottom-width: 0;
+     padding: 2px;
+     background-color: #616161;
+     width: 250px;
+     height: auto;
+     text-align: center;
+}
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+     float: none;
+     padding: 1.5em 0em;
+     text-decoration: none;
+     display: inline-block;
+     width: 100%;
+     text-align: center;
+     display: inline-block;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active {
+     margin-bottom: -1px;
+     padding-bottom: 1px;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor,
+.ui-tabs .ui-tabs-nav li.ui-state-disabled .ui-tabs-anchor,
+.ui-tabs .ui-tabs-nav li.ui-tabs-loading .ui-tabs-anchor {
+     cursor: text;
+}
+.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+     cursor: pointer;
+}
+.ui-tabs .ui-tabs-panel {
+     display: block;
+     border-width: 0;
+     padding: 1em 1.4em;
+     background: none;
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+  box-shadow: 5px 5px 5px #888888;   
+    font-weight: bold;
+}
+.ui-tabs a {
+     color: #fff !important
+}
+.ui-tabs a:focus {
+     box-shadow: none !important;
+}
+
+
+/* ICONS */
+ @font-face {
+     font-family: 'Material Icons';
+     font-style: normal;
+     font-weight: 400;
+     src: url(https://fonts.gstatic.com/s/materialicons/v48/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2) format('woff2');
+}
+ .material-icons {
+     font-family: 'Material Icons';
+     font-weight: normal;
+     font-style: normal;
+     font-size: 20px;
+     line-height: 1.5;
+     letter-spacing: normal;
+     text-transform: none;
+     color: gray;
+     white-space: nowrap;
+     padding: 5px 15px;
+     float: right;
+     -moz-font-feature-settings: 'liga';
+     -moz-osx-font-smoothing: grayscale;
+}
